@@ -11,7 +11,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="我是一只小鸭子呀，咿呀咿呀呦" />
+        android:text="我是一只小鸭子呀，咿呀咿呀呦,嘿嘿" />
 
     <TextView
         android:layout_width="wrap_content"
