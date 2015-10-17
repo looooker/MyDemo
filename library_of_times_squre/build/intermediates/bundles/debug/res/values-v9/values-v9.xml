@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/D:/androidDemo/MyDemo/library_of_times_squre/src/main/res/values-v9/strings.xml -->
+    <eat-comment/>
+    <string name="month_name_format">yyyy年MM月</string>
+</resources>

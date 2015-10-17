@@ -3,4 +3,6 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="main_text">我是一只小鸭子呀，咿呀咿呀呦,嘿嘿</string>
+    <string name="title_activity_coordinator_layout">CoordinatorLayoutActivity</string>
 </resources>

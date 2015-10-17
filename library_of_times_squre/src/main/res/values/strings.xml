@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2012 Square, Inc. -->
+
+<resources>
+
+    <string name="day_name_format">EEE</string>
+    <string name="invalid_date">请选择%1$s-%2$s的时间段！</string>
+    <string name="invalid_date2">请选择%1$s之后的时间段！</string>
+    <string name="invalid_date3">所选时间段包含无房日期!</string>
+    <string name="month_name_format">MMMM yyyy</string>
+
+</resources>

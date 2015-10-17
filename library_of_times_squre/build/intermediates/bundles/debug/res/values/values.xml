@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/D:/androidDemo/MyDemo/library_of_times_squre/src/main/res/values/attrs.xml -->
+    <eat-comment/>
+    <attr format="color" name="titleTextColor"/>
+    <!-- From: file:/D:/androidDemo/MyDemo/library_of_times_squre/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="calendar_active_month_bg">#f5f7f9</color>
+    <color name="calendar_bg">#ffffff</color>
+    <color name="calendar_divider">#bababa</color>
+    <color name="calendar_highlighted_day_bg">#ccffcc</color>
+    <color name="calendar_inactive_month_bg">#d7d9db</color>
+    <color name="calendar_selected_day_bg">#00ff00</color>
+    <color name="calendar_selected_range_bg">#96caff</color>
+    <color name="calendar_text_active">#323232</color>
+    <color name="calendar_text_inactive">#778088</color>
+    <color name="calendar_text_selected">#FFFFFFFF</color>
+    <color name="calendar_text_sunday">#ff1e00</color>
+    <color name="calendar_text_today">#06babd</color>
+    <color name="calendar_text_unselectable">#cccccc</color>
+    <declare-styleable name="CalendarPickerView"><attr name="android:background"/><attr format="color" name="dividerColor"/><attr format="reference" name="dayBackground"/><attr format="color" name="dayTextColor"/><attr format="boolean" name="displayHeader"/><attr format="color" name="headerTextColor"/><attr name="titleTextColor"/></declare-styleable>
+    <declare-styleable name="calendar_cell"><attr format="boolean" name="state_selectable"/><attr format="boolean" name="state_in"/><attr format="boolean" name="state_out"/><attr format="boolean" name="state_current_month"/><attr format="boolean" name="state_today"/><attr format="boolean" name="state_range_first"/><attr format="boolean" name="state_range_middle"/><attr format="boolean" name="state_range_last"/><attr format="boolean" name="state_highlighted"/></declare-styleable>
+    <!-- From: file:/D:/androidDemo/MyDemo/library_of_times_squre/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="calendar_day_headers_paddingbottom">1dp</dimen>
+    <dimen name="calendar_month_title_bottommargin">4dp</dimen>
+    <dimen name="calendar_month_topmargin">16dp</dimen>
+    <dimen name="calendar_text_medium">18sp</dimen>
+    <dimen name="calendar_text_small">12sp</dimen>
+    <!-- From: file:/D:/androidDemo/MyDemo/library_of_times_squre/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="day_name_format">EEE</string>
+    <string name="invalid_date">请选择%1$s-%2$s的时间段！</string>
+    <string name="invalid_date2">请选择%1$s之后的时间段！</string>
+    <string name="invalid_date3">所选时间段包含无房日期!</string>
+    <string name="month_name_format">MMMM yyyy</string>
+    <!-- From: file:/D:/androidDemo/MyDemo/library_of_times_squre/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="CalendarCell">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="CalendarCell.CalendarDate">
+        <item name="android:textSize">18sp</item>
+        <item name="android:clickable">true</item>
+    </style>
+    <style name="CalendarCell.DayHeader">
+        <item name="android:textSize">@dimen/calendar_text_small</item>
+    </style>
+    <style name="CalendarTitle">
+        <item name="android:textSize">@dimen/calendar_text_medium</item>
+    </style>
+</resources>
